@@ -1,0 +1,14 @@
+[SddmGreeterTheme]
+Name=sddm-onimai-theme
+Description=sddm-onimai-theme
+Author=keyitdev
+Website=https://github.com/Keyitdev/sddm-astronaut-theme
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.1
+ConfigFile=theme.conf
+MainScript=Main.qml
+TranslationsDirectory=translations
+Theme-Id=sddm-onimai-theme
+Theme-API=2.0
+QtVersion=6

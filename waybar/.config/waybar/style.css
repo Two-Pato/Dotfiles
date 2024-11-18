@@ -1,0 +1,180 @@
+/* Variables*/
+
+@define-color seasalt rgb(251, 249, 248);
+@define-color taupe-gray rgb(144, 129, 134);
+@define-color mountbatten-pink rgb(149, 117, 128);
+@define-color eerie-black rgb(28, 29, 33);
+@define-color lilac rgb(201, 160, 202);
+
+/* General */
+
+* {
+    font-family: JetBrains Mono Nerd Font;
+    border: none;
+    border-radius: 0px;
+}
+
+#waybar {
+    border-bottom: 0px solid @seasalt;
+    transition-property: background-color;
+    transition-duration: .5s;
+    background: transparent;
+}
+
+
+/* Custom Appmenu */
+
+#custom-appmenu {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 15px 0px 15px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    color: @eerie-black;
+    background-color: @seasalt;
+    opacity: 1.0;
+}
+
+
+/* Taskbar */
+
+#taskbar {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px 0px 10px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-weight: normal;
+    font-style: normal;
+    background: @seasalt;
+    opacity: 1.0;
+}
+
+#taskbar button {
+    margin: 5;
+    border-radius: 15px;
+    padding: 0px 5px 0px 5px;
+}
+
+#taskbar button.active {
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
+#taskbar button:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
+
+/* Window */
+
+#window {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px 0px 10px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    color: @eerie-black;
+    background: @seasalt;
+    opacity: 1.0;
+}
+
+#waybar.empty #window {
+    background-color: transparent;
+}
+
+
+/* Workspaces */
+#workspaces {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 1px;
+    border-radius: 15px;
+    border: 0px solid @mountbatten-pink;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: @eerie-black;
+    background: @seasalt;
+    opacity: 1.0;
+}
+
+#workspaces button {
+    margin: 5px 5px;
+    padding: 0px 5px;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    color: @seasalt;
+    background: @lilac;
+}
+
+#workspaces button.active {
+    border-radius: 15px;
+    min-width: 40px;
+    transition: all 0.3s ease-in-out;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
+#workspaces button:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
+
+/* Clock */
+
+#clock {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 15px 0px 15px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: @eerie-black;
+    background-color: @seasalt;
+    opacity: 1.0;
+}
+
+
+/* Custom Exit */
+
+#custom-hypridle {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 15px 0px 15px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    color: @eerie-black;
+    background-color: @seasalt;
+    opacity: 1.0;
+}
+
+
+
+/* Custom Exit */
+
+#custom-exit {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 15px 0px 15px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    color: @eerie-black;
+    background-color: @seasalt;
+    opacity: 1.0;
+}

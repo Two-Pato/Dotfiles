@@ -1,0 +1,55 @@
+{
+    "custom/appmenu": {
+        "tooltip": false,
+        "format": " Apps",
+        "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace"
+      },
+    
+    
+    "wlr/taskbar": {
+        "tooltip": false,
+        "format": "{icon}",
+        "icon-size": 16,
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+    
+
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{}",
+        "format-icons": {
+			"urgent": "",
+			"active": "",
+			"default": ""
+        },
+        "persistent-workspaces": {
+             "*": 5
+        }       
+    },
+
+
+    "clock": {
+        "tooltip": false,
+        "format": "{:%H:%M %a}"
+    },
+
+
+    "custom/hypridle": {
+        "tooltip": false,
+        "format": " Log Out",
+        "return-type": "json",
+        "escape": true,
+        "exec-on-event": true,
+        "on-click": "hyprlock"
+      },
+
+    
+    "custom/exit": {
+        "tooltip": false,
+        "format": " Laurent",
+        "on-click": "wlogout"
+      }
+}
