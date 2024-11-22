@@ -37,6 +37,12 @@
     opacity: 1.0;
 }
 
+#custom-appmenu:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
 
 /* Taskbar */
 
@@ -162,6 +168,12 @@
     opacity: 1.0;
 }
 
+#custom-hypridle:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @taupe-gray;
+}
+
 
 
 /* Custom Exit */
@@ -177,4 +189,10 @@
     color: @eerie-black;
     background-color: @seasalt;
     opacity: 1.0;
+}
+
+#custom-exit:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @taupe-gray;
 }
