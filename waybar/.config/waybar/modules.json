@@ -31,6 +31,18 @@
     },
 
 
+    "pulseaudio": {
+      "format": "<span>{icon}</span>  {volume}%",
+      "format-muted": "",
+      "tooltip": false,
+      "format-icons": {
+        "headphone": "",
+        "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+      },
+      "scroll-step": 5
+    },
+
+    
     "clock": {
         "tooltip": false,
         "format": "{:%H:%M %a}"

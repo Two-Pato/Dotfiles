@@ -2,3 +2,5 @@
 tmp_files/
 clipboard_history.json
 clipse.log
+# qimgv
+savedState.conf
