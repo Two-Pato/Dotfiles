@@ -138,6 +138,28 @@
 
 /* Audio */
 
+#bluetooth {
+    margin: 5px 10px 5px 10px;
+    padding: 0px 15px 0px 15px;
+    border: 0px solid @mountbatten-pink;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: @eerie-black;
+    background-color: @seasalt;
+    opacity: 1.0;
+}
+
+#bluetooth:hover {
+    border-radius: 15px;
+    color: @seasalt;
+    background: @cherry-blossom-pink;
+}
+
+
+/* Audio */
+
 #pulseaudio {
     margin: 5px 10px 5px 10px;
     padding: 0px 15px 0px 15px;

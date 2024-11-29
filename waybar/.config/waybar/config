@@ -24,6 +24,7 @@
     ],
 
     "modules-right": [
+        "bluetooth",
         "pulseaudio",
         "clock",
         "custom/hypridle",
